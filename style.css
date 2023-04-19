@@ -1,0 +1,124 @@
+body {
+    background-color: #0e3117;
+}
+.container {
+    position: relative;
+    text-align: center;
+    width: 410px;
+    height: 436px;
+    background-color: #4a6920;
+}
+.high-score {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    vertical-align: top;
+}
+
+div {
+    position: relative;
+    text-align: center;
+    height: 23px;
+    width: 150px;
+    color: #ffffff;
+    margin: 2px auto;
+    top: 100px;
+}
+#label1 {
+    text-align: left;
+    font-family: 'Rubik Wet Paint';
+    color: wheat;
+}
+.current-score {
+    position: absolute;
+    top: 4px;
+    left: 10px;
+    text-align: right;
+    font-family: 'Rubik Wet Paint';
+}
+#label2 {
+    text-align: left;
+    font-family: 'Rubik Wet Paint';
+    color: wheat;
+}
+.high-score {
+    top: 4px;
+    text-align: right;
+    font-family: 'Rubik Wet Paint';
+}
+canvas {
+    position: relative;
+    top: 30px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid #1CD055;
+    background-color: #000000;
+}
+.game-over {
+    position: absolute;
+    display: none;
+    margin: 1px 1px 1px 1px;
+    text-align: center;
+    top: 0px;
+    width: 408px;
+    height: 434px;
+    background-color: #000000;
+    opacity: 0.9;
+}
+.message {
+    position: relative;
+    width: auto;
+    height: 70px;
+    font-size: 60px;
+    font-family: 'Rubik Wet Paint';
+    color: #ff0000;
+    background-color: #000000;
+    top: 170px;
+}
+div.game-over-score {
+    position: relative;
+    height: 28px;
+    width: 380px;
+    top: 170px;
+    background-color: #000000;
+}
+.current {
+    font-family: 'Rubik Wet Paint';
+    position: absolute;
+    left: 10px;
+    height: 23px;
+    width: 150px;
+    top: 55px;
+    color: #ffffff;
+}
+.high {
+    font-family: 'Rubik Wet Paint';
+    position: absolute;
+    right: 10px;
+    height: 23px;
+    width: 150px;
+    top: 55px;
+    color: #ffffff;
+}
+#play-again {
+    position: relative;
+    width: 175px;
+    height: 75px; 
+    background-color: #4a6920;
+    font-family: 'Rubik Wet Paint';
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-size: 15px;
+    transition: 0.6s;
+    clip-path: inset(38% 16% 38% 16%);  
+    color: rgb(235, 158, 75);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin: 0px auto;
+    text-align: center;
+    top: 230px;
+}
+#play-again:hover {
+    clip-path: inset(28% 0% 28% 0%);
+    font-size: 16px;
+    letter-spacing: 5px;
+}

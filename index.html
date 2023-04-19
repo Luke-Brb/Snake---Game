@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Rubik+Wet+Paint&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="current-score" id="label1">Current Score</div>
+      <div class="current-score" id="current-score"></div>
+      <div class="high-score" id="label2">High Score</div>
+      <div class="high-score" id="high-score"></div>
+      <canvas width="400" height="400" id="cvs"></canvas>
+      <div class="game-over">
+        <div class="message">Game Over!</div>
+        <div class="game-over-score">
+          <div class="current" id="current"></div>
+          <div class="high" id="high"></div>
+        </div>
+        <button id="play-again">Play Again</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
