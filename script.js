@@ -15,7 +15,6 @@ let directionsQueue = []; //We save every movement given to the snake
 let score = 0;
 let highScore = localStorage.getItem('high-score') || 0; // High score
 let gameLoop = setInterval(frame, 400);
-let a = 0, b = 0;
 
 // Draw board
 const width = cvs.width,
