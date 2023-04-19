@@ -9,13 +9,11 @@ const headColor = '#96D34A',
 let snake = [{x: 2, y: 0},
              {x: 1, y: 0},
              {x: 0, y: 0}];
-
 const initialSnakeLength = snake.length;
 let currentDirection = '';
 let directionsQueue = []; //We save every movement given to the snake
 let score = 0;
 let highScore = localStorage.getItem('high-score') || 0; // High score
-
 let gameLoop = setInterval(frame, 400);
 let a = 0, b = 0;
 
