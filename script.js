@@ -39,7 +39,7 @@ function drawSquare(x, y, color) {
     ctx.strokeStyle = boardColor;
     ctx.strokeRect(x * sq, y * sq, sq, sq);
 }
-//drawSnake();
+
 // Create and draw the food
 // Create the food
 let food = createFood();
